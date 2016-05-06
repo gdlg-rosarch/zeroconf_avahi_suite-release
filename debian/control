@@ -1,0 +1,13 @@
+Source: ros-kinetic-zeroconf-avahi
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libavahi-client-dev, libavahi-core-dev, ros-kinetic-catkin, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-zeroconf-msgs
+Homepage: http://wiki.ros.org/zeroconf_avahi
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-zeroconf-avahi
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, avahi-daemon, libavahi-client-dev, libavahi-core-dev, ros-kinetic-rosconsole, ros-kinetic-roscpp, ros-kinetic-zeroconf-msgs
+Description: Provides zeroconf services on avahi for ros systems.
+ This is a c++ implementation.
