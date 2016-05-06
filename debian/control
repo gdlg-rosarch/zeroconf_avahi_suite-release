@@ -1,0 +1,12 @@
+Source: ros-kinetic-zeroconf-avahi-suite
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/zeroconf_avahi_suite
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-zeroconf-avahi-suite
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-zeroconf-avahi, ros-kinetic-zeroconf-avahi-demos
+Description: Suite of packages supporing the avahi implementation of zeroconf for ros.
